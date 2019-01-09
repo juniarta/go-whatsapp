@@ -2,9 +2,10 @@ package whatsapp
 
 import (
 	"fmt"
-	"github.com/Rhymen/go-whatsapp/binary"
-	"github.com/Rhymen/go-whatsapp/binary/proto"
 	"os"
+
+	"github.com/juniarta/go-whatsapp/binary"
+	"github.com/juniarta/go-whatsapp/binary/proto"
 )
 
 /*

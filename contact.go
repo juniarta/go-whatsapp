@@ -2,9 +2,10 @@ package whatsapp
 
 import (
 	"fmt"
-	"github.com/Rhymen/go-whatsapp/binary"
 	"strconv"
 	"time"
+
+	"github.com/juniarta/go-whatsapp/binary"
 )
 
 type Presence string
@@ -13,8 +14,8 @@ const (
 	PresenceAvailable   = "available"
 	PresenceUnavailable = "unavailable"
 	PresenceComposing   = "composing"
-	PresenceRecording	= "recording"
-	PresencePaused	= "paused"
+	PresenceRecording   = "recording"
+	PresencePaused      = "paused"
 )
 
 //TODO: filename? WhatsApp uses Store.Contacts for these functions

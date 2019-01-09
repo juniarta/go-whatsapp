@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Rhymen/go-whatsapp/binary"
-	"github.com/Rhymen/go-whatsapp/crypto/cbc"
 	"github.com/gorilla/websocket"
+	"github.com/juniarta/go-whatsapp/binary"
+	"github.com/juniarta/go-whatsapp/crypto/cbc"
 )
 
 type metric byte
@@ -118,7 +118,7 @@ func NewConn(timeout time.Duration) (*Conn, error) {
 		msgTimeout:    timeout,
 		Store:         newStore(),
 
-		longClientName:  "github.com/rhymen/go-whatsapp",
+		longClientName:  "github.com/juniarta/go-whatsapp",
 		shortClientName: "go-whatsapp",
 	}
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/Baozisoftware/qrcode-terminal-go"
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/juniarta/go-whatsapp"
 	"os"
 	"time"
 )
